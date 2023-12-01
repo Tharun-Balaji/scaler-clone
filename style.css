@@ -63,3 +63,51 @@ nav .center{
     margin: 0.5rem;
     border-radius: 5px;
 }
+section .banner{
+    position: relative;
+    background-color: var(--bgDark);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.banner>img{
+    padding: 2rem;
+}
+.banner .typo{
+    color: var(--white);
+    margin-left: -15rem;
+    margin-top:-10rem;
+}
+.banner .typo h1{
+    font-weight: 200;
+    font-size: 1.75rem;
+}
+.banner .typo p{
+    line-height: 2;
+    font-size: 1.25rem;
+    font-weight: 100;
+}
+.bottom{
+    position: absolute;
+    height: 40px;
+    width: 100vw;
+    background-color: var(--bgLight);
+    bottom: 0rem;
+}
+.banner .ads{
+    position: absolute;
+    bottom: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--white);
+    height: 3rem;
+    border-radius: 1rem;
+    width: 45rem;
+    left: 5rem;
+}
+.banner .ads div{
+    display: flex;
+    align-items: center;
+    font-size: 0.75rem;
+}
